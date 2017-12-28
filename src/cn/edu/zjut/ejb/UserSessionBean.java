@@ -9,7 +9,7 @@ public class UserSessionBean implements UserServiceRemote {
 
     @Override
     public boolean login(String username, String password) {
-        if ("zjut".equals(username) && "zjut".equals(password))
+        if ("zjut1".equals(username) && "zjut".equals(password))
             return true;
         return false;
     }
